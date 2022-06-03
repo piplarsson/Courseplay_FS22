@@ -70,7 +70,6 @@ Ein ganz großes Danke geht an unsere Übersetzer und an die Community für die 
 		<sourceFile filename="scripts/courseGenerator/Vector.lua"/>
 		<sourceFile filename="scripts/Waypoint.lua"/>
 		<sourceFile filename="scripts/Course.lua"/>
-		<sourceFile filename="scripts/CpRemainingTime.lua"/>
 		<sourceFile filename="scripts/util/CpMathUtil.lua"/>
 		<sourceFile filename="scripts/util/MovingAverage.lua"/>
 		<sourceFile filename="scripts/field/CpFieldUtil.lua"/>
@@ -156,6 +155,7 @@ Ein ganz großes Danke geht an unsere Übersetzer und an die Community für die 
 		<sourceFile filename="scripts/gui/CourseDisplay.lua"/>
 		<sourceFile filename="scripts/gui/CpAIHotspots.lua"/>
 		<sourceFile filename="scripts/gui/CpGamePadHudScreen.lua"/>
+		<sourceFile filename="scripts/gui/CpRemainingTime.lua"/>
 		<sourceFile filename="scripts/gui/hud/HudElements.lua"/>
 		<sourceFile filename="scripts/gui/hud/CpBaseHud.lua"/>
 		<sourceFile filename="scripts/gui/hud/CpHudInfoTexts.lua"/>

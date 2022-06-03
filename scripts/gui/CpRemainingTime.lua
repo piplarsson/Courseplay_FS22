@@ -71,7 +71,7 @@ end
 
 function CpRemainingTime:save(courseLengthTraveled)
 	if next(self.data) ~= nil then 
-		local name = self.debugFolderDir .. tostring( getDate( ":%S")) .. tostring(self.timePassed) .. "_" .. tostring(math.floor(self.distanceTraveled)) .. ".xml"
+		local name = tostring( getDate( "%Y-%m-%d_%H-%M-%S"))
 		local xmlFile = XMLFile.create("timeRemaining", self.debugFolderDir .. name..".xml", self.rootXmlKey, self.xmlSchema)
 		if xmlFile then 
 			self:debug("Time remaining data saved successfully with %d measurements.", #self.data)
